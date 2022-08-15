@@ -12,47 +12,8 @@ Documentation of SageMaker Implementation of Mapping Algorithm for OneSource Sta
 
 - Need to create a Natural Language Processing ML model that can do Text classification using AWS BlazingText within SageMaker and then use that model to create a mapping algorithm that can accurately predict/place where the accounts and categories need to go based on user preference
 
- 
 
- 
 
-2) Account mapping
-
-- From the templates, there are accounts being streamed in. Users create an excel sheet and then import that into statutory reporting.
-
-- The magnitude of the project is millions of records across 20-30 thousand accounts.
-
-- Within the wizard, there is the ability to map the external accounts to internal accounts
-
-- However, this is all done manually so what we have to implement is creating an ML model that can accurately map the accounts to their correct spot
-
-- Essentially you use the model to give the user mapped accounts and have them review it rather than manually map them so it makes it much less time-consuming.
-
-- We also need to allow the ML model to learn when the user changes/reviews the mapped accounts. If the model incorrectly mapped something and the user changes it, the model should be able to catch its mistake next time.
-
- 
-
- 
-
-3) Accounts categories/accounts assignment
-
-- This feature allows for users to report on specific categories full of accounts rather than each account individually.
-
-- Helps companies to report on bigger time periods like quarterly and annually
-
-- Essentially the main idea for this section is that we need to map the accounts that have millions of records into categories.
-
-- This is another version of “mapping” so what we need to create is an ML model that can correctly map whatever it's being used for rather than just specific things like accounts.
-
-- This will make things much easier since the user can just review the categories and make sure its correct rather than tediously moving them to each spot. We need to train the model to make sure that it has high accuracy in the first place so there aren’t that many mistakes and when there are, the model will fix itself to make it correct.
-
- 
-
- 
-
- 
-
- 
 
 What did we use for this Notebook Instance
 
