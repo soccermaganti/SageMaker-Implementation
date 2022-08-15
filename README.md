@@ -74,7 +74,7 @@ What did we use for this Notebook Instance
 
   2) How did we store the data
 
-    -We used S3 Buckets to store the data -> a202990-mapping-osr-accounts-s3-bucket (S3 Bucket used)
+    - We used S3 Buckets to store the data -> a202990-mapping-osr-accounts-s3-bucket (S3 Bucket used)
 
  
 
