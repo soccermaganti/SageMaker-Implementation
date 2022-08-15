@@ -1,6 +1,6 @@
 # barossa-platform_service-machine_learning_account_mapping
 
-Documentation of SageMaker Implementation of Mapping Algorithm for OneSource Statutory Reporting.
+Documentation of SageMaker Implementation of Mapping Algorithm for Statutory Reporting.
 
  
 
@@ -8,7 +8,7 @@ Documentation of SageMaker Implementation of Mapping Algorithm for OneSource Sta
 
 1) Initial Project
 
-- The problem that we are trying to solve is that In the OSR application, users currently do manual data entry when categorizing data and files. Currently, it takes hours for users to manually put accounts into their respective categories. The team decided to add machine learning to solve this problem. We needed to create a mapping algorithm that is able to automate this process to make it easier for both the user and the OneSource Team. If the user wants to make changes to the way the data is categorized, the model will automatically learn to sort the accounts to user preference. This problem is not limited to just statutory reporting but rather can be generalized throughout the OneSource platform.
+- The problem that we are trying to solve is that In the company application, users currently do manual data entry when categorizing data and files. Currently, it takes hours for users to manually put accounts into their respective categories. The team decided to add machine learning to solve this problem. We needed to create a mapping algorithm that is able to automate this process to make it easier for both the user and the operations Team. If the user wants to make changes to the way the data is categorized, the model will automatically learn to sort the accounts to user preference. 
 
 - Need to create a Natural Language Processing ML model that can do Text classification using AWS BlazingText within SageMaker and then use that model to create a mapping algorithm that can accurately predict/place where the accounts and categories need to go based on user preference
 
